@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "esModuleInterop": true,
+        "outDir": "./distStaticServer"        
+    },
+    "include": [
+        "./src/servers/staticServer/**/*",
+        "./src/servers/middleware/**/*"
+    ]
+}
